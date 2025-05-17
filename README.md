@@ -1,29 +1,40 @@
-# alx-listing-app
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
 
+## Getting Started
 
-## 🌍 Project Overview
+First, run the development server:
 
-**ALX Listing App** is a simplified Airbnb clone built using **Next.js**, **TypeScript**, and **Tailwind CSS**. This project is part of the ALX Full-Stack Developer Program and aims to help learners understand and apply frontend development concepts such as reusable components, interface typing, and project organization.
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-The goal is to create a clean, responsive, and scalable listing page for properties, focusing on reusability, maintainability, and good coding practices.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
----
+You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
 
- 🧱 Project Structure
+[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
 
-alx-listing-app/
+The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
 
--     components/ # Reusable UI components used across the app( common/ # Shared components like Card, Button, etc.)
--     interfaces/ # TypeScript interfaces for props and data structures
--     constants/ # Static values like API URLs and UI strings
--     public/assets/ # Static assets such as images and icons
--     pages/ # Next.js pages (routes)
--     styles/ # Global styles (if needed)
--     README.md # Project documentation
+This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## 📦 Tech Stack
-  -     Next.js
+## Learn More
 
-  -     TypeScript
+To learn more about Next.js, take a look at the following resources:
 
-  -     Tailwind CSS
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
+
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
